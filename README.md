@@ -1,41 +1,32 @@
 # Smart-Contract-Project
 
-Simple overview of use/purpose.
+For this project we will write a smart contract that implements the require(), assert() and revert() statements.
+
 
 ## Description
 
 An in-depth paragraph about your project and overview of use.
 
-## Getting Started
-
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+* You can install the Remix Desktop IDE by using this link : https://remix-project.org/
 ### Executing program
+* To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+You can run this code by using Remix IDE that is provided in the link. To create a file you can click the "New File" save the file ".sol".
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+ Once your Remix IDE or Remix Website IDE you can copy and paste this code.
+To compile this code you can click the compiler and set it to "0.8.18" and click the "Compile.myToken.sol".
+And then below it is the deploy and run transaction where you deploy the contract by clicking the button to execute. 
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+
 
 ## Authors
 
-Contributors names and contact info
+Jan Mel Semaña
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+https://twitter.com/Jan_Mel_Sem
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
