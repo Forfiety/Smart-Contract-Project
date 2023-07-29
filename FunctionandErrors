@@ -1,0 +1,28 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+contract FunctionandError {
+    uint public balance = 100000;
+
+    function withdraw(uint _amount) public {
+        require(_amount <= balance, "Insufficient balance");
+        balance -= _amount;
+
+          if (_amount >= 10000) {
+            revert("Amount must be less than or equal to the balance");
+   
+    }
+    }
+
+    function transfer(uint _amount, address _recipient) public {
+        require(_amount <= balance, "Insufficient balance");
+        require(_recipient != address(0), "invalid address");
+
+        balance += _amount;
+
+        assert(balance <= 100000); 
+    }
+
+    
+}
+
